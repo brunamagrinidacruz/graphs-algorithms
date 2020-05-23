@@ -1,3 +1,3 @@
 # graphs-algorithms
 
-https://magrinibruna.gitbook.io/graphs/
+https://magrinibruna.gitbook.io/algorithms/
