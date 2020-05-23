@@ -54,6 +54,12 @@ int graph_number_of_vertices(GRAPH* graph) {
     }
 }
 
+int graph_weight_edge(GRAPH* graph, int convergent, int divergent) {
+    if(graph != NULL) {
+        return list_get_weight(graph->adjacency_list[convergent], divergent);
+    }
+}
+
 void graph_print_element(GRAPH* graph, int vertex, int adjacent_vertex) {
      if(graph != NULL) {
         return list_print_no(graph->adjacency_list[vertex], adjacent_vertex);

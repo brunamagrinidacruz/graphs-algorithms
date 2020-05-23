@@ -16,6 +16,7 @@
     int list_first_element(LIST* list);
 
     int list_next_element(LIST* list, int *current_vertex, int *next_vertex);
+    int list_get_weight(LIST* list, int divergent);
     
     void list_print_no(LIST* list, int index);
     void list_print(LIST* list);

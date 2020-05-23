@@ -17,6 +17,7 @@
     int graph_is_adjacency_list_empty(GRAPH* graph, int vertex);
     int graph_first_vertex_list_adjacency(GRAPH* graph, int vertex);
     int graph_next_vertex_list_adjacency(GRAPH* graph, int vertex, int *current_vertex, int *next_vertex);
+    int graph_weight_edge(GRAPH* graph, int convergent, int divergent);
 
     void graph_print(GRAPH* graph);
     

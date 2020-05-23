@@ -82,6 +82,15 @@ void list_remove(LIST* list, int id) {
     return;
 }
 
+int list_get_weight(LIST* list, int divergent) {
+    if(list != NULL) {
+        NO* aux = list->head->next;
+        while(aux != NULL && aux->id != divergent) aux = aux->next;
+        if(aux != NULL)  return aux->weight;
+    }
+    return -1;
+}
+
 void list_print_no(LIST* list, int id) {
     if(list != NULL) {
         NO* aux = list->head->next;
