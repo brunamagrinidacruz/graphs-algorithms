@@ -1,3 +1,1 @@
-# graphs-algorithms
-
-https://magrinibruna.gitbook.io/algorithms/graphs/dijkstras-algorithm
+Criação de algoritmos de grafos.
